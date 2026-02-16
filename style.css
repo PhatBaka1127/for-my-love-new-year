@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  touch-action: none;
+  background: black;
+}
+
+#startScreen {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+#startBtn {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, pink, hotpink);
+  color: white;
+}
+
+#page {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  transition: background-image 0.8s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.content {
+  position: relative;
+  color: white;
+  font-size: 22px;
+  line-height: 1.6;
+  max-width: 90%;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.content.show {
+  opacity: 1;
+}
+
+.hint {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  opacity: 0.6;
+}
+
+.mailBtn {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: hotpink;
+  color: white;
+  font-size: 16px;
+}
+
+.mailBtn {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: hotpink;
+  color: white;
+  font-size: 16px;
+  z-index: 5; /* QUAN TRỌNG */
+}
