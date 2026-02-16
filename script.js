@@ -12,7 +12,8 @@ const pages = [
   { bg: "Assets/afternoon.gif", text: "Những lần im lặng đến đau lòng, vì sự ngu ngơ của cả hai đứa." },
   { bg: "Assets/afternoon.gif", text: "Có những lời nói khiến tim nhói đau." },
   { bg: "Assets/afternoon.gif", text: "Nhưng sau tất cả, mình vẫn ở lại." },
-  { bg: "Assets/afternoon.gif", text: "Vì tình yêu chưa từng muốn buông bỏ, cảm ơn rất nhiều." },
+  { bg: "Assets/afternoon.gif", text: "Vì tình yêu chưa từng muốn buông bỏ, cảm ơn em rất nhiều." },
+  { bg: "Assets/afternoon.gif", text: "Mong rằng hai đứa sẽ luôn vui vẻ, có một tình yêu thật trọn vẹn em nha." },
 
   // 🌙 TỐI
   { bg: "Assets/night.gif", text: "Năm mới đến rồi..." },
